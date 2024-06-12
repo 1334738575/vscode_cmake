@@ -126,4 +126,5 @@ CMakeFiles/vscode_cmake.dir/main.cpp.obj: \
  F:/vscodeConfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ostream.tcc \
  F:/vscodeConfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream \
  F:/vscodeConfig/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/istream.tcc \
- F:\TestMake\vscode_cmake\include/testH.h
+ F:\TestMake\vscode_cmake\include/testH.h \
+ F:\TestMake\vscode_cmake\include/Version.hpp
