@@ -1,0 +1,413 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1B7437C6-9C67-33EF-BB1E-31ECCE50E03A}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>vscode_cmake</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 9.0.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\TestMake\vscode_cmake\build2\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vscode_cmake.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">vscode_cmake</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\TestMake\vscode_cmake\build2\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vscode_cmake.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">vscode_cmake</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\TestMake\vscode_cmake\build2\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vscode_cmake.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">vscode_cmake</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\TestMake\vscode_cmake\build2\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vscode_cmake.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">vscode_cmake</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\TestMake\vscode_cmake\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std:c++14</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\TestMake\vscode_cmake\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <CudaCompile>
+      <Include>F:\TestMake\vscode_cmake\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include;%(Include)</Include>
+      <Defines>%(Defines);_WINDOWS;CMAKE_INTDIR="Debug"</Defines>
+      <AdditionalOptions>%(AdditionalOptions) -Xcompiler="/EHsc -Zi -Ob0"</AdditionalOptions>
+      <CodeGeneration></CodeGeneration>
+      <CompileOut>$(IntDir)%(Filename).obj</CompileOut>
+      <CudaRuntime>Static</CudaRuntime>
+      <GPUDebugInfo>false</GPUDebugInfo>
+      <Optimization>Od</Optimization>
+      <Runtime>MDd</Runtime>
+      <RuntimeChecks>RTC1</RuntimeChecks>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+      <TypeInfo>true</TypeInfo>
+      <UseHostInclude>false</UseHostInclude>
+      <Warning>W3</Warning>
+    </CudaCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\TestMake\vscode_cmake\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64\cudart_static.lib;cudadevrt.lib;cudart_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/TestMake/vscode_cmake/build2/Debug/vscode_cmake.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/TestMake/vscode_cmake/build2/Debug/vscode_cmake.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <CudaLink>
+      <AdditionalOptions>-Wno-deprecated-gpu-targets </AdditionalOptions>
+      <PerformDeviceLink>false</PerformDeviceLink>
+    </CudaLink>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\TestMake\vscode_cmake\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std:c++14</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\TestMake\vscode_cmake\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <CudaCompile>
+      <Include>F:\TestMake\vscode_cmake\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include;%(Include)</Include>
+      <Defines>%(Defines);_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</Defines>
+      <AdditionalOptions>%(AdditionalOptions) -Xcompiler="/EHsc -Ob2"</AdditionalOptions>
+      <CodeGeneration></CodeGeneration>
+      <CompileOut>$(IntDir)%(Filename).obj</CompileOut>
+      <CudaRuntime>Static</CudaRuntime>
+      <GPUDebugInfo>false</GPUDebugInfo>
+      <Optimization>O2</Optimization>
+      <Runtime>MD</Runtime>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+      <TypeInfo>true</TypeInfo>
+      <UseHostInclude>false</UseHostInclude>
+      <Warning>W3</Warning>
+    </CudaCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\TestMake\vscode_cmake\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64\cudart_static.lib;cudadevrt.lib;cudart_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/TestMake/vscode_cmake/build2/Release/vscode_cmake.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/TestMake/vscode_cmake/build2/Release/vscode_cmake.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <CudaLink>
+      <AdditionalOptions>-Wno-deprecated-gpu-targets </AdditionalOptions>
+      <PerformDeviceLink>false</PerformDeviceLink>
+    </CudaLink>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\TestMake\vscode_cmake\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std:c++14</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\TestMake\vscode_cmake\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <CudaCompile>
+      <Include>F:\TestMake\vscode_cmake\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include;%(Include)</Include>
+      <Defines>%(Defines);_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</Defines>
+      <AdditionalOptions>%(AdditionalOptions) -Xcompiler="/EHsc -Ob1"</AdditionalOptions>
+      <CodeGeneration></CodeGeneration>
+      <CompileOut>$(IntDir)%(Filename).obj</CompileOut>
+      <CudaRuntime>Static</CudaRuntime>
+      <GPUDebugInfo>false</GPUDebugInfo>
+      <Optimization>O1</Optimization>
+      <Runtime>MD</Runtime>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+      <TypeInfo>true</TypeInfo>
+      <UseHostInclude>false</UseHostInclude>
+      <Warning>W3</Warning>
+    </CudaCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\TestMake\vscode_cmake\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64\cudart_static.lib;cudadevrt.lib;cudart_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/TestMake/vscode_cmake/build2/MinSizeRel/vscode_cmake.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/TestMake/vscode_cmake/build2/MinSizeRel/vscode_cmake.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <CudaLink>
+      <AdditionalOptions>-Wno-deprecated-gpu-targets </AdditionalOptions>
+      <PerformDeviceLink>false</PerformDeviceLink>
+    </CudaLink>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\TestMake\vscode_cmake\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -std:c++14</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\TestMake\vscode_cmake\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <CudaCompile>
+      <Include>F:\TestMake\vscode_cmake\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include;%(Include)</Include>
+      <Defines>%(Defines);_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</Defines>
+      <AdditionalOptions>%(AdditionalOptions) -Xcompiler="/EHsc -Zi -Ob1"</AdditionalOptions>
+      <CodeGeneration></CodeGeneration>
+      <CompileOut>$(IntDir)%(Filename).obj</CompileOut>
+      <CudaRuntime>Static</CudaRuntime>
+      <GPUDebugInfo>false</GPUDebugInfo>
+      <Optimization>O2</Optimization>
+      <Runtime>MD</Runtime>
+      <TargetMachinePlatform>64</TargetMachinePlatform>
+      <TypeInfo>true</TypeInfo>
+      <UseHostInclude>false</UseHostInclude>
+      <Warning>W3</Warning>
+    </CudaCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\TestMake\vscode_cmake\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\lib\x64\cudart_static.lib;cudadevrt.lib;cudart_static.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/lib/x64;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/lib/x64/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>F:/TestMake/vscode_cmake/build2/RelWithDebInfo/vscode_cmake.lib</ImportLibrary>
+      <ProgramDataBaseFile>F:/TestMake/vscode_cmake/build2/RelWithDebInfo/vscode_cmake.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+    <CudaLink>
+      <AdditionalOptions>-Wno-deprecated-gpu-targets </AdditionalOptions>
+      <PerformDeviceLink>false</PerformDeviceLink>
+    </CudaLink>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\TestMake\vscode_cmake\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/TestMake/vscode_cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\cmake\bin\cmake.exe -SF:/TestMake/vscode_cmake -BF:/TestMake/vscode_cmake/build2 --check-stamp-file F:/TestMake/vscode_cmake/build2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeCCompiler.cmake;F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeCUDACompiler.cmake;F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeSystem.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeCInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeCUDAInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\NVIDIA-CUDA.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\NVIDIA.cmake;F:\cmake\share\cmake-3.29\Modules\FindCUDA.cmake;F:\cmake\share\cmake-3.29\Modules\FindCUDA\select_compute_arch.cmake;F:\cmake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\share\cmake-3.29\Modules\FindPackageMessage.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-NVIDIA-CUDA.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\TestMake\vscode_cmake\build2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/TestMake/vscode_cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\cmake\bin\cmake.exe -SF:/TestMake/vscode_cmake -BF:/TestMake/vscode_cmake/build2 --check-stamp-file F:/TestMake/vscode_cmake/build2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeCCompiler.cmake;F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeCUDACompiler.cmake;F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeSystem.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeCInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeCUDAInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\NVIDIA-CUDA.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\NVIDIA.cmake;F:\cmake\share\cmake-3.29\Modules\FindCUDA.cmake;F:\cmake\share\cmake-3.29\Modules\FindCUDA\select_compute_arch.cmake;F:\cmake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\share\cmake-3.29\Modules\FindPackageMessage.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-NVIDIA-CUDA.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\TestMake\vscode_cmake\build2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/TestMake/vscode_cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+F:\cmake\bin\cmake.exe -SF:/TestMake/vscode_cmake -BF:/TestMake/vscode_cmake/build2 --check-stamp-file F:/TestMake/vscode_cmake/build2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeCCompiler.cmake;F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeCUDACompiler.cmake;F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeSystem.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeCInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeCUDAInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\NVIDIA-CUDA.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\NVIDIA.cmake;F:\cmake\share\cmake-3.29\Modules\FindCUDA.cmake;F:\cmake\share\cmake-3.29\Modules\FindCUDA\select_compute_arch.cmake;F:\cmake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\share\cmake-3.29\Modules\FindPackageMessage.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-NVIDIA-CUDA.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\TestMake\vscode_cmake\build2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/TestMake/vscode_cmake/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+F:\cmake\bin\cmake.exe -SF:/TestMake/vscode_cmake -BF:/TestMake/vscode_cmake/build2 --check-stamp-file F:/TestMake/vscode_cmake/build2/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeCCompiler.cmake;F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeCUDACompiler.cmake;F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeCXXCompiler.cmake;F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeRCCompiler.cmake;F:\TestMake\vscode_cmake\build2\CMakeFiles\3.29.3\CMakeSystem.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeCInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeCUDAInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\NVIDIA-CUDA.cmake;F:\cmake\share\cmake-3.29\Modules\Compiler\NVIDIA.cmake;F:\cmake\share\cmake-3.29\Modules\FindCUDA.cmake;F:\cmake\share\cmake-3.29\Modules\FindCUDA\select_compute_arch.cmake;F:\cmake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\share\cmake-3.29\Modules\FindPackageMessage.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows-NVIDIA-CUDA.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\Windows.cmake;F:\cmake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\TestMake\vscode_cmake\build2\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\TestMake\vscode_cmake\main.cpp">
+      <ObjectFileName>$(IntDir)/main.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <CudaCompile Include="..\src\testCUDA.cu" />
+    <CudaCompile Include="..\main.cu">
+      <CompileOut>$(IntDir)/main.cu.obj</CompileOut>
+    </CudaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\TestMake\vscode_cmake\build2\ZERO_CHECK.vcxproj">
+      <Project>{21D6C3B4-4CB9-3A22-9D4C-D831E74AABA0}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\CUDA 9.0.targets" />
+  </ImportGroup>
+</Project>

@@ -1,0 +1,18 @@
+{
+    "version": 8,
+    "configurePresets": [
+        {
+            "name": "Vscode_cmake",
+            "displayName": "GCC 8.1.0 x86_64-w64-mingw32",
+            "description": "使用编译器: C = F:\\vscodeConfig\\mingw64\\bin\\gcc.exe, CXX = F:\\vscodeConfig\\mingw64\\bin\\g++.exe",
+            "generator": "MinGW Makefiles",
+            "binaryDir": "${sourceDir}/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/install/${presetName}",
+                "CMAKE_C_COMPILER": "F:/vscodeConfig/mingw64/bin/gcc.exe",
+                "CMAKE_CXX_COMPILER": "F:/vscodeConfig/mingw64/bin/g++.exe",
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        }
+    ]
+}

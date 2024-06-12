@@ -1,0 +1,10 @@
+^F:\TESTMAKE\VSCODE_CMAKE\BUILD2\CMAKEFILES\4EE6DA8B841E08D8CC46CF75B45997BA\GENERATE.STAMP.RULE
+setlocal
+F:\cmake\bin\cmake.exe -SF:/TestMake/vscode_cmake -BF:/TestMake/vscode_cmake/build2 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/TestMake/vscode_cmake/build2/vscode_cmake.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

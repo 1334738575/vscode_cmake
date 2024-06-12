@@ -1,0 +1,1000 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22621 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) 生成引擎版本 14.0.25420.1
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2024/6/8 20:00:20。
+      节点 1 上的项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc140.pdb" /Gd /TC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdC\\.\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:02.24
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        F:/TestMake/vscode_cmake/build2/CMakeFiles/3.29.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) 生成引擎版本 14.0.25420.1
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2024/6/8 20:00:23。
+      节点 1 上的项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\CL.exe /c /nologo /W0 /WX- /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc140.pdb" /Gd /TP /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCXX\\.\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.75
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        F:/TestMake/vscode_cmake/build2/CMakeFiles/3.29.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-7ydghv"
+      binary: "F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-7ydghv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-7ydghv'
+        
+        Run Build Command(s): "C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" cmTC_a2070.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:n
+        Microsoft (R) 生成引擎版本 14.0.25420.1
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/6/8 20:00:25。
+        节点 1 上的项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-7ydghv\\cmTC_a2070.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_a2070.dir\\Debug\\”。
+          正在创建目录“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-7ydghv\\Debug\\”。
+          正在创建目录“cmTC_a2070.dir\\Debug\\cmTC_a2070.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_a2070.dir\\Debug\\cmTC_a2070.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2070.dir\\Debug\\\\" /Fd"cmTC_a2070.dir\\Debug\\vc140.pdb" /Gd /TC /errorReport:queue "F:\\cmake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a2070.dir\\Debug\\\\" /Fd"cmTC_a2070.dir\\Debug\\vc140.pdb" /Gd /TC /errorReport:queue "F:\\cmake\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+          
+          CMakeCCompilerABI.c
+        Link:
+          F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-7ydghv\\Debug\\cmTC_a2070.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-7ydghv/Debug/cmTC_a2070.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-7ydghv/Debug/cmTC_a2070.lib" /MACHINE:X64  /machine:x64 cmTC_a2070.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_a2070.vcxproj -> F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-7ydghv\\Debug\\cmTC_a2070.exe
+          cmTC_a2070.vcxproj -> F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-7ydghv/Debug/cmTC_a2070.pdb (Full PDB)
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_a2070.dir\\Debug\\cmTC_a2070.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_a2070.dir\\Debug\\cmTC_a2070.tlog\\cmTC_a2070.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-7ydghv\\cmTC_a2070.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.79
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': F:/VisualStudio2015/VC/bin/x86_amd64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/cmake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the C compiler's linker: "F:/VisualStudio2015/VC/bin/x86_amd64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.00.24215.1
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-5fyisp"
+      binary: "F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-5fyisp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-5fyisp'
+        
+        Run Build Command(s): "C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" cmTC_c1294.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:n
+        Microsoft (R) 生成引擎版本 14.0.25420.1
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/6/8 20:00:28。
+        节点 1 上的项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-5fyisp\\cmTC_c1294.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_c1294.dir\\Debug\\”。
+          正在创建目录“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-5fyisp\\Debug\\”。
+          正在创建目录“cmTC_c1294.dir\\Debug\\cmTC_c1294.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_c1294.dir\\Debug\\cmTC_c1294.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c1294.dir\\Debug\\\\" /Fd"cmTC_c1294.dir\\Debug\\vc140.pdb" /Gd /TP /errorReport:queue "F:\\cmake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c1294.dir\\Debug\\\\" /Fd"cmTC_c1294.dir\\Debug\\vc140.pdb" /Gd /TP /errorReport:queue "F:\\cmake\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+          
+          CMakeCXXCompilerABI.cpp
+        Link:
+          F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-5fyisp\\Debug\\cmTC_c1294.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-5fyisp/Debug/cmTC_c1294.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-5fyisp/Debug/cmTC_c1294.lib" /MACHINE:X64  /machine:x64 cmTC_c1294.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c1294.vcxproj -> F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-5fyisp\\Debug\\cmTC_c1294.exe
+          cmTC_c1294.vcxproj -> F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-5fyisp/Debug/cmTC_c1294.pdb (Full PDB)
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_c1294.dir\\Debug\\cmTC_c1294.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_c1294.dir\\Debug\\cmTC_c1294.tlog\\cmTC_c1294.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-5fyisp\\cmTC_c1294.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.77
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': F:/VisualStudio2015/VC/bin/x86_amd64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/cmake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "F:/VisualStudio2015/VC/bin/x86_amd64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.00.24215.1
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/cmake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "F:/cmake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "F:/cmake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:121 (_record_compiler_features_cxx)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:83 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-lzuh6d"
+      binary: "F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-lzuh6d"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-lzuh6d'
+        
+        Run Build Command(s): "C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" cmTC_ed36a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:n
+        Microsoft (R) 生成引擎版本 14.0.25420.1
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/6/8 20:00:30。
+        节点 1 上的项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-lzuh6d\\cmTC_ed36a.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_ed36a.dir\\Debug\\”。
+          正在创建目录“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-lzuh6d\\Debug\\”。
+          正在创建目录“cmTC_ed36a.dir\\Debug\\cmTC_ed36a.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_ed36a.dir\\Debug\\cmTC_ed36a.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ed36a.dir\\Debug\\\\" /Fd"cmTC_ed36a.dir\\Debug\\vc140.pdb" /Gd /TP /errorReport:queue  -std:c++14 "F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-lzuh6d\\feature_tests.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_ed36a.dir\\Debug\\\\" /Fd"cmTC_ed36a.dir\\Debug\\vc140.pdb" /Gd /TP /errorReport:queue  -std:c++14 "F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-lzuh6d\\feature_tests.cxx"
+          
+          feature_tests.cxx
+        Link:
+          F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-lzuh6d\\Debug\\cmTC_ed36a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-lzuh6d/Debug/cmTC_ed36a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-lzuh6d/Debug/cmTC_ed36a.lib" /MACHINE:X64  /machine:x64 cmTC_ed36a.dir\\Debug\\feature_tests.obj
+          cmTC_ed36a.vcxproj -> F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-lzuh6d\\Debug\\cmTC_ed36a.exe
+          cmTC_ed36a.vcxproj -> F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-lzuh6d/Debug/cmTC_ed36a.pdb (Full PDB)
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_ed36a.dir\\Debug\\cmTC_ed36a.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_ed36a.dir\\Debug\\cmTC_ed36a.tlog\\cmTC_ed36a.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-lzuh6d\\cmTC_ed36a.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.77
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/cmake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "F:/cmake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake:84 (_record_compiler_features)"
+      - "F:/cmake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:83 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-4tjlp2"
+      binary: "F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-4tjlp2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-4tjlp2'
+        
+        Run Build Command(s): "C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" cmTC_829cc.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:n
+        Microsoft (R) 生成引擎版本 14.0.25420.1
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/6/8 20:00:33。
+        节点 1 上的项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-4tjlp2\\cmTC_829cc.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_829cc.dir\\Debug\\”。
+          正在创建目录“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-4tjlp2\\Debug\\”。
+          正在创建目录“cmTC_829cc.dir\\Debug\\cmTC_829cc.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_829cc.dir\\Debug\\cmTC_829cc.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_829cc.dir\\Debug\\\\" /Fd"cmTC_829cc.dir\\Debug\\vc140.pdb" /Gd /TP /errorReport:queue "F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-4tjlp2\\feature_tests.cxx"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.00.24215.1 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_829cc.dir\\Debug\\\\" /Fd"cmTC_829cc.dir\\Debug\\vc140.pdb" /Gd /TP /errorReport:queue "F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-4tjlp2\\feature_tests.cxx"
+          
+          feature_tests.cxx
+        Link:
+          F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-4tjlp2\\Debug\\cmTC_829cc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-4tjlp2/Debug/cmTC_829cc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-4tjlp2/Debug/cmTC_829cc.lib" /MACHINE:X64  /machine:x64 cmTC_829cc.dir\\Debug\\feature_tests.obj
+          cmTC_829cc.vcxproj -> F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-4tjlp2\\Debug\\cmTC_829cc.exe
+          cmTC_829cc.vcxproj -> F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-4tjlp2/Debug/cmTC_829cc.pdb (Full PDB)
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_829cc.dir\\Debug\\cmTC_829cc.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_829cc.dir\\Debug\\cmTC_829cc.tlog\\cmTC_829cc.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-4tjlp2\\cmTC_829cc.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.75
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:53 (__determine_compiler_id_test)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCUDACompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CUDA compiler identification source file "CMakeCUDACompilerId.cu" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags: --keep;--keep-dir;tmp -v
+      
+      The output was:
+      0
+      Microsoft (R) 生成引擎版本 14.0.25420.1
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2024/6/9 14:13:30。
+      节点 1 上的项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCUDA.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      AddCudaCompileDeps:
+        F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include" /I. /FIcuda_runtime.h /c F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CMakeCUDACompilerId.cu 
+      项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(1)正在节点 1 上生成“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(1:2) (CudaBuildCore 个目标)。
+      CudaBuildCore:
+        Compiling CUDA source file CMakeCUDACompilerId.cu...
+        cmd.exe /C "C:\\Users\\13347\\AppData\\Local\\Temp\\tmpb52c6132f5fd430da499897f3defcd0c.cmd"
+        "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin\\nvcc.exe" -gencode=arch=compute_30,code=\\"sm_30,compute_30\\" --use-local-env --cl-version 2015 -ccbin "F:\\VisualStudio2015\\VC\\bin\\x86_amd64" -x cu  -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include"  -G   --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -v -g   -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\\CMakeCUDACompilerId.cu.obj "F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CMakeCUDACompilerId.cu"
+        
+        F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin\\nvcc.exe" -gencode=arch=compute_30,code=\\"sm_30,compute_30\\" --use-local-env --cl-version 2015 -ccbin "F:\\VisualStudio2015\\VC\\bin\\x86_amd64" -x cu  -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include"  -G   --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -v -g   -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\\CMakeCUDACompilerId.cu.obj "F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" 
+        #$ _SPACE_= 
+        #$ _CUDART_=cudart
+        #$ _HERE_=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin
+        #$ _THERE_=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin
+        #$ _TARGET_SIZE_=
+        #$ _TARGET_DIR_=
+        #$ _TARGET_SIZE_=64
+        #$ _WIN_PLATFORM_=x64
+        #$ TOP=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/..
+        #$ NVVMIR_LIBRARY_DIR=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/../nvvm/libdevice
+        #$ PATH=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/../open64/bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/../nvvm/bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/../lib;F:\\VisualStudio2015\\VC\\bin\\x86_amd64;F:\\VisualStudio2015\\VC\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools;F:\\VisualStudio2015\\Common7\\tools;F:\\VisualStudio2015\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;C:\\Program Files (x86)\\MSBuild\\14.0\\bin\\;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\;;F:\\VisualStudio2015\\VC\\bin\\x86_amd64;F:\\VisualStudio2015\\VC\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools;F:\\VisualStudio2015\\Common7\\tools;F:\\VisualStudio2015\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;C:\\Program Files (x86)\\MSBuild\\14.0\\bin\\;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\;;F:\\vm\\bin\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\libnvvp;F:\\anaconda3;F:\\anaconda3\\Library\\mingw-w64\\bin;F:\\anaconda3\\Library\\usr\\bin;F:\\anaconda3\\Library\\bin;F:\\anaconda3\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;F:\\vscodeConfig\\mingw64\\bin;F:\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64;F:\\cmake\\bin;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;F:\\git\\Git\\cmd;F:\\conda3\\conda;F:\\conda3\\conda\\Library\\mingw-w64\\bin;F:\\conda3\\conda\\Library\\usr\\bin;F:\\conda3\\conda\\Library\\bin;F:\\conda3\\conda\\Scripts;F:\\python3.11\\Scripts\\;F:\\python3.11\\;C:\\Users\\13347\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\13347\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;F:\\pycharm\\PyCharm Community Edition 2021.1.2\\PyCharm Community Edition 2023.2.1\\bin;;F:\\QQgame\\Hall.58139\\;;
+        #$ INCLUDES="-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/../include"  
+        #$ LIBRARIES=  "/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/../lib/x64"
+        #$ CUDAFE_FLAGS=--sdk_dir "C:\\Program Files (x86)\\Windows Kits\\8.1"
+        #$ PTXAS_FLAGS=
+        CMakeCUDACompilerId.cu
+        #$ cl.exe @"C:\\Users\\13347\\AppData\\Local\\Temp/tmpxft_00006078_00000000-8.res" > "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-7_CMakeCUDACompilerId.cpp1.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\13347\\AppData\\Local\\Temp/tmpxft_00006078_00000000-8.res
+        #$ cicc --microsoft_version=1903 --msvc_target_version=1903 --compiler_bindir "F:/VisualStudio2015/VC/bin/x86_amd64/../../.." --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\8.1"  -arch compute_30 -m64 -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_00006078_00000000-3_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused -nvvmir-library "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/../nvvm/libdevice/libdevice.10.bc" --gen_module_id_file --module_id_file_name "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-4_CMakeCUDACompilerId.module_id" --orig_src_file_name "F:/TestMake/vscode_cmake/build2/CMakeFiles/3.29.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --gen_c_file_name "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-7_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.ptx"
+        #$ ptxas -arch=sm_30 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.ptx"  -o "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-9_CMakeCUDACompilerId.sm_30.cubin" 
+        #$ fatbinary --create="C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-3_CMakeCUDACompilerId.fatbin" -64 --ident="F:/TestMake/vscode_cmake/build2/CMakeFiles/3.29.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " -g "--image=profile=sm_30,file=C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-9_CMakeCUDACompilerId.sm_30.cubin" "--image=profile=compute_30,file=C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-3_CMakeCUDACompilerId.fatbin.c" --cuda
+        #$ erase C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-3_CMakeCUDACompilerId.fatbin
+        #$ cl.exe @"C:\\Users\\13347\\AppData\\Local\\Temp/tmpxft_00006078_00000000-10.res" > "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-5_CMakeCUDACompilerId.cpp4.ii" 
+        CMakeCUDACompilerId.cu
+        #$ erase C:\\Users\\13347\\AppData\\Local\\Temp/tmpxft_00006078_00000000-10.res
+        #$ cudafe++ --microsoft_version=1903 --msvc_target_version=1903 --compiler_bindir "F:/VisualStudio2015/VC/bin/x86_amd64/../../.." --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\8.1" --m64 --parse_templates --gen_c_file_name "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_00006078_00000000-6_CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-4_CMakeCUDACompilerId.module_id" "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-5_CMakeCUDACompilerId.cpp4.ii" 
+        #$ cl.exe @"C:\\Users\\13347\\AppData\\Local\\Temp/tmpxft_00006078_00000000-11.res" -Fo"Debug/CMakeCUDACompilerId.cu.obj" 
+        tmpxft_00006078_00000000-6_CMakeCUDACompilerId.cudafe1.cpp
+        #$ erase C:\\Users\\13347\\AppData\\Local\\Temp/tmpxft_00006078_00000000-11.res
+      已完成生成项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(CudaBuildCore 个目标)的操作。
+      Link:
+        F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 Debug\\CMakeCUDACompilerId.cu.obj
+          正在创建库 .\\CompilerIdCUDA.lib 和对象 .\\CompilerIdCUDA.exp
+        CompilerIdCUDA.vcxproj -> F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\.\\CompilerIdCUDA.exe
+      PostBuildEvent:
+        echo CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin\\nvcc.exe
+        :VCEnd
+        CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin\\nvcc.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:09.29
+      
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exe"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.exp"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.lib"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "CompilerIdCUDA.vcxproj"
+      
+      Compilation of the CUDA compiler identification source "CMakeCUDACompilerId.cu" produced "vc140.pdb"
+      
+      The CUDA compiler identification is NVIDIA, found in:
+        F:/TestMake/vscode_cmake/build2/CMakeFiles/3.29.3/CompilerIdCUDA/CompilerIdCUDA.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/cmake/share/cmake-3.29/Modules/Internal/CMakeNVCCParseImplicitInfo.cmake:128 (message)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCUDACompiler.cmake:242 (cmake_nvcc_parse_implicit_info)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CUDA nvcc implicit link information:
+        found 'PATH=' string: [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/../open64/bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/../nvvm/bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/../lib;F:\\VisualStudio2015\\VC\\bin\\x86_amd64;F:\\VisualStudio2015\\VC\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools;F:\\VisualStudio2015\\Common7\\tools;F:\\VisualStudio2015\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;C:\\Program Files (x86)\\MSBuild\\14.0\\bin\\;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\;;F:\\VisualStudio2015\\VC\\bin\\x86_amd64;F:\\VisualStudio2015\\VC\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools;F:\\VisualStudio2015\\Common7\\tools;F:\\VisualStudio2015\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;C:\\Program Files (x86)\\MSBuild\\14.0\\bin\\;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\;;F:\\vm\\bin\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\libnvvp;F:\\anaconda3;F:\\anaconda3\\Library\\mingw-w64\\bin;F:\\anaconda3\\Library\\usr\\bin;F:\\anaconda3\\Library\\bin;F:\\anaconda3\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;F:\\vscodeConfig\\mingw64\\bin;F:\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64;F:\\cmake\\bin;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;F:\\git\\Git\\cmd;F:\\conda3\\conda;F:\\conda3\\conda\\Library\\mingw-w64\\bin;F:\\conda3\\conda\\Library\\usr\\bin;F:\\conda3\\conda\\Library\\bin;F:\\conda3\\conda\\Scripts;F:\\python3.11\\Scripts\\;F:\\python3.11\\;C:\\Users\\13347\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\13347\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;F:\\pycharm\\PyCharm Community Edition 2021.1.2\\PyCharm Community Edition 2023.2.1\\bin;;F:\\QQgame\\Hall.58139\\;;]
+        found 'LIBRARIES=' string: ["/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/../lib/x64"]
+        found 'INCLUDES=' string: ["-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/../include"  ]
+        considering line: [Microsoft (R) 生成引擎版本 14.0.25420.1]
+        considering line: [版权所有(C) Microsoft Corporation。保留所有权利。]
+        considering line: [生成启动时间为 2024/6/9 14:13:30。]
+        considering line: [节点 1 上的项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(默认目标)。]
+        considering line: [PrepareForBuild:]
+        considering line: [  正在创建目录“Debug\\”。]
+        considering line: [  正在创建目录“Debug\\CompilerIdCUDA.tlog\\”。]
+        considering line: [InitializeBuildStatus:]
+        considering line: [  正在创建“Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。]
+        considering line: [AddCudaCompileDeps:]
+        considering line: [  F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include" /I. /FIcuda_runtime.h /c F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CMakeCUDACompilerId.cu ]
+        considering line: [项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(1)正在节点 1 上生成“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(1:2) (CudaBuildCore 个目标)。]
+        considering line: [CudaBuildCore:]
+        considering line: [  Compiling CUDA source file CMakeCUDACompilerId.cu...]
+        considering line: [  cmd.exe /C "C:\\Users\\13347\\AppData\\Local\\Temp\\tmpb52c6132f5fd430da499897f3defcd0c.cmd"]
+        considering line: [  "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin\\nvcc.exe" -gencode=arch=compute_30,code=\\"sm_30,compute_30\\" --use-local-env --cl-version 2015 -ccbin "F:\\VisualStudio2015\\VC\\bin\\x86_amd64" -x cu  -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include"  -G   --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -v -g   -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\\CMakeCUDACompilerId.cu.obj "F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CMakeCUDACompilerId.cu"]
+        considering line: [  ]
+        considering line: [  F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin\\nvcc.exe" -gencode=arch=compute_30,code=\\"sm_30,compute_30\\" --use-local-env --cl-version 2015 -ccbin "F:\\VisualStudio2015\\VC\\bin\\x86_amd64" -x cu  -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include"  -G   --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -v -g   -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\\CMakeCUDACompilerId.cu.obj "F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
+        considering line: [                                CMakeCUDACompilerId.cu]
+        considering line: [  #$ cl.exe @"C:\\Users\\13347\\AppData\\Local\\Temp/tmpxft_00006078_00000000-8.res" > "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-7_CMakeCUDACompilerId.cpp1.ii" ]
+        considering line: [  CMakeCUDACompilerId.cu]
+        considering line: [  #$ erase C:\\Users\\13347\\AppData\\Local\\Temp/tmpxft_00006078_00000000-8.res]
+        considering line: [  #$ cicc --microsoft_version=1903 --msvc_target_version=1903 --compiler_bindir "F:/VisualStudio2015/VC/bin/x86_amd64/../../.." --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\8.1"  -arch compute_30 -m64 -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_00006078_00000000-3_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused -nvvmir-library "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/../nvvm/libdevice/libdevice.10.bc" --gen_module_id_file --module_id_file_name "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-4_CMakeCUDACompilerId.module_id" --orig_src_file_name "F:/TestMake/vscode_cmake/build2/CMakeFiles/3.29.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --gen_c_file_name "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-7_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.ptx"]
+        considering line: [  #$ ptxas -arch=sm_30 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.ptx"  -o "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-9_CMakeCUDACompilerId.sm_30.cubin" ]
+        considering line: [  #$ fatbinary --create="C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-3_CMakeCUDACompilerId.fatbin" -64 --ident="F:/TestMake/vscode_cmake/build2/CMakeFiles/3.29.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " -g "--image=profile=sm_30,file=C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-9_CMakeCUDACompilerId.sm_30.cubin" "--image=profile=compute_30,file=C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-3_CMakeCUDACompilerId.fatbin.c" --cuda]
+        considering line: [  #$ erase C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-3_CMakeCUDACompilerId.fatbin]
+        considering line: [  #$ cl.exe @"C:\\Users\\13347\\AppData\\Local\\Temp/tmpxft_00006078_00000000-10.res" > "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-5_CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [  CMakeCUDACompilerId.cu]
+        considering line: [  #$ erase C:\\Users\\13347\\AppData\\Local\\Temp/tmpxft_00006078_00000000-10.res]
+        considering line: [  #$ cudafe++ --microsoft_version=1903 --msvc_target_version=1903 --compiler_bindir "F:/VisualStudio2015/VC/bin/x86_amd64/../../.." --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\8.1" --m64 --parse_templates --gen_c_file_name "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_00006078_00000000-6_CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-4_CMakeCUDACompilerId.module_id" "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-5_CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [  #$ cl.exe @"C:\\Users\\13347\\AppData\\Local\\Temp/tmpxft_00006078_00000000-11.res" -Fo"Debug/CMakeCUDACompilerId.cu.obj" ]
+        considering line: [  tmpxft_00006078_00000000-6_CMakeCUDACompilerId.cudafe1.cpp]
+        considering line: [  #$ erase C:\\Users\\13347\\AppData\\Local\\Temp/tmpxft_00006078_00000000-11.res]
+        considering line: [已完成生成项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(CudaBuildCore 个目标)的操作。]
+        considering line: [Link:]
+        considering line: [  F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 Debug\\CMakeCUDACompilerId.cu.obj]
+          extracted link line: [link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 Debug\\CMakeCUDACompilerId.cu.obj]
+        considering line: [    正在创建库 .\\CompilerIdCUDA.lib 和对象 .\\CompilerIdCUDA.exp]
+        considering line: [  CompilerIdCUDA.vcxproj -> F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\.\\CompilerIdCUDA.exe]
+        considering line: [PostBuildEvent:]
+        considering line: [  echo CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin\\nvcc.exe]
+        considering line: [  :VCEnd]
+        considering line: [  CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin\\nvcc.exe]
+        considering line: [FinalizeBuildStatus:]
+        considering line: [  正在删除文件“Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild”。]
+        considering line: [  正在对“Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.lastbuildstate”执行 Touch 任务。]
+        considering line: [已完成生成项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(默认目标)的操作。]
+        considering line: [已成功生成。]
+        considering line: [    0 个警告]
+        considering line: [    0 个错误]
+        considering line: [已用时间 00:00:09.29]
+        considering line: []
+      
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        link line: [cuda-fake-ld link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 Debug\\CMakeCUDACompilerId.cu.obj]
+          arg [cuda-fake-ld] ==> ignore
+          arg [link.exe] ==> ignore
+          arg [/ERRORREPORT:QUEUE] ==> ignore
+          arg [/OUT:.\\CompilerIdCUDA.exe] ==> ignore
+          arg [/INCREMENTAL:NO] ==> ignore
+          arg [/NOLOGO] ==> ignore
+          arg [/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64] ==> dir [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64]
+          arg [cudart_static.lib] ==> lib [cudart_static.lib]
+          arg [/MANIFEST] ==> ignore
+          arg [/MANIFESTUAC:level='asInvoker' uiAccess='false'] ==> ignore
+          arg [/manifest:embed] ==> ignore
+          arg [/PDB:.\\CompilerIdCUDA.pdb] ==> ignore
+          arg [/SUBSYSTEM:CONSOLE] ==> ignore
+          arg [/TLBID:1] ==> ignore
+          arg [/DYNAMICBASE] ==> ignore
+          arg [/NXCOMPAT] ==> ignore
+          arg [/IMPLIB:.\\CompilerIdCUDA.lib] ==> ignore MSVC link option
+          arg [/MACHINE:X64] ==> ignore
+          arg [Debug\\CMakeCUDACompilerId.cu.obj] ==> ignore
+        collapse library dir [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64] ==> [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/lib/x64]
+        implicit libs: [cudart_static.lib]
+        implicit objs: []
+        implicit dirs: [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/lib/x64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/cmake/share/cmake-3.29/Modules/Internal/CMakeNVCCParseImplicitInfo.cmake:146 (message)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCUDACompiler.cmake:242 (cmake_nvcc_parse_implicit_info)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CUDA nvcc include information:
+        found 'PATH=' string: [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/../open64/bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/../nvvm/bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/../lib;F:\\VisualStudio2015\\VC\\bin\\x86_amd64;F:\\VisualStudio2015\\VC\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools;F:\\VisualStudio2015\\Common7\\tools;F:\\VisualStudio2015\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;C:\\Program Files (x86)\\MSBuild\\14.0\\bin\\;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\;;F:\\VisualStudio2015\\VC\\bin\\x86_amd64;F:\\VisualStudio2015\\VC\\bin;C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86;;C:\\Program Files (x86)\\Microsoft SDKs\\Windows\\v10.0A\\bin\\NETFX 4.6.1 Tools;F:\\VisualStudio2015\\Common7\\tools;F:\\VisualStudio2015\\Common7\\ide;C:\\Program Files (x86)\\HTML Help Workshop;;C:\\Program Files (x86)\\MSBuild\\14.0\\bin\\;C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\;;F:\\vm\\bin\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\libnvvp;F:\\anaconda3;F:\\anaconda3\\Library\\mingw-w64\\bin;F:\\anaconda3\\Library\\usr\\bin;F:\\anaconda3\\Library\\bin;F:\\anaconda3\\Scripts;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;F:\\vscodeConfig\\mingw64\\bin;F:\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64;F:\\cmake\\bin;C:\\Program Files\\Microsoft SQL Server\\130\\Tools\\Binn\\;F:\\git\\Git\\cmd;F:\\conda3\\conda;F:\\conda3\\conda\\Library\\mingw-w64\\bin;F:\\conda3\\conda\\Library\\usr\\bin;F:\\conda3\\conda\\Library\\bin;F:\\conda3\\conda\\Scripts;F:\\python3.11\\Scripts\\;F:\\python3.11\\;C:\\Users\\13347\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\13347\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;F:\\pycharm\\PyCharm Community Edition 2021.1.2\\PyCharm Community Edition 2023.2.1\\bin;;F:\\QQgame\\Hall.58139\\;;]
+        found 'LIBRARIES=' string: ["/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/../lib/x64"]
+        found 'INCLUDES=' string: ["-IC:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/../include"  ]
+        considering line: [Microsoft (R) 生成引擎版本 14.0.25420.1]
+        considering line: [版权所有(C) Microsoft Corporation。保留所有权利。]
+        considering line: [生成启动时间为 2024/6/9 14:13:30。]
+        considering line: [节点 1 上的项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(默认目标)。]
+        considering line: [PrepareForBuild:]
+        considering line: [  正在创建目录“Debug\\”。]
+        considering line: [  正在创建目录“Debug\\CompilerIdCUDA.tlog\\”。]
+        considering line: [InitializeBuildStatus:]
+        considering line: [  正在创建“Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。]
+        considering line: [AddCudaCompileDeps:]
+        considering line: [  F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include" /I. /FIcuda_runtime.h /c F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CMakeCUDACompilerId.cu ]
+        considering line: [项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(1)正在节点 1 上生成“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(1:2) (CudaBuildCore 个目标)。]
+        considering line: [CudaBuildCore:]
+        considering line: [  Compiling CUDA source file CMakeCUDACompilerId.cu...]
+        considering line: [  cmd.exe /C "C:\\Users\\13347\\AppData\\Local\\Temp\\tmpb52c6132f5fd430da499897f3defcd0c.cmd"]
+        considering line: [  "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin\\nvcc.exe" -gencode=arch=compute_30,code=\\"sm_30,compute_30\\" --use-local-env --cl-version 2015 -ccbin "F:\\VisualStudio2015\\VC\\bin\\x86_amd64" -x cu  -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include"  -G   --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -v -g   -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\\CMakeCUDACompilerId.cu.obj "F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CMakeCUDACompilerId.cu"]
+        considering line: [  ]
+        considering line: [  F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin\\nvcc.exe" -gencode=arch=compute_30,code=\\"sm_30,compute_30\\" --use-local-env --cl-version 2015 -ccbin "F:\\VisualStudio2015\\VC\\bin\\x86_amd64" -x cu  -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include" -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include"  -G   --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -v -g   -D_MBCS -Xcompiler "/EHsc /W0 /nologo /Od /FS /Zi /RTC1 /MDd " -o Debug\\CMakeCUDACompilerId.cu.obj "F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CMakeCUDACompilerId.cu" ]
+        considering line: [                                CMakeCUDACompilerId.cu]
+        considering line: [  #$ cl.exe @"C:\\Users\\13347\\AppData\\Local\\Temp/tmpxft_00006078_00000000-8.res" > "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-7_CMakeCUDACompilerId.cpp1.ii" ]
+        considering line: [  CMakeCUDACompilerId.cu]
+        considering line: [  #$ erase C:\\Users\\13347\\AppData\\Local\\Temp/tmpxft_00006078_00000000-8.res]
+        considering line: [  #$ cicc --microsoft_version=1903 --msvc_target_version=1903 --compiler_bindir "F:/VisualStudio2015/VC/bin/x86_amd64/../../.." --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\8.1"  -arch compute_30 -m64 -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 --include_file_name "tmpxft_00006078_00000000-3_CMakeCUDACompilerId.fatbin.c" -g -O0 -tused -nvvmir-library "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin/../nvvm/libdevice/libdevice.10.bc" --gen_module_id_file --module_id_file_name "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-4_CMakeCUDACompilerId.module_id" --orig_src_file_name "F:/TestMake/vscode_cmake/build2/CMakeFiles/3.29.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --gen_c_file_name "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.cudafe1.c" --stub_file_name "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.cudafe1.stub.c" --gen_device_file_name "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.cudafe1.gpu"  "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-7_CMakeCUDACompilerId.cpp1.ii" -o "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.ptx"]
+        considering line: [  #$ ptxas -arch=sm_30 -m64 -g --dont-merge-basicblocks --return-at-end "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.ptx"  -o "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-9_CMakeCUDACompilerId.sm_30.cubin" ]
+        considering line: [  #$ fatbinary --create="C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-3_CMakeCUDACompilerId.fatbin" -64 --ident="F:/TestMake/vscode_cmake/build2/CMakeFiles/3.29.3/CompilerIdCUDA/CMakeCUDACompilerId.cu" --cmdline="-g --dont-merge-basicblocks --return-at-end " -g "--image=profile=sm_30,file=C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-9_CMakeCUDACompilerId.sm_30.cubin" "--image=profile=compute_30,file=C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.ptx" --embedded-fatbin="C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-3_CMakeCUDACompilerId.fatbin.c" --cuda]
+        considering line: [  #$ erase C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-3_CMakeCUDACompilerId.fatbin]
+        considering line: [  #$ cl.exe @"C:\\Users\\13347\\AppData\\Local\\Temp/tmpxft_00006078_00000000-10.res" > "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-5_CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [  CMakeCUDACompilerId.cu]
+        considering line: [  #$ erase C:\\Users\\13347\\AppData\\Local\\Temp/tmpxft_00006078_00000000-10.res]
+        considering line: [  #$ cudafe++ --microsoft_version=1903 --msvc_target_version=1903 --compiler_bindir "F:/VisualStudio2015/VC/bin/x86_amd64/../../.." --allow_managed --debug_mode --sdk_dir "C:\\Program Files (x86)\\Windows Kits\\8.1" --m64 --parse_templates --gen_c_file_name "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-6_CMakeCUDACompilerId.cudafe1.cpp" --stub_file_name "tmpxft_00006078_00000000-6_CMakeCUDACompilerId.cudafe1.stub.c" --module_id_file_name "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-4_CMakeCUDACompilerId.module_id" "C:/Users/13347/AppData/Local/Temp/tmpxft_00006078_00000000-5_CMakeCUDACompilerId.cpp4.ii" ]
+        considering line: [  #$ cl.exe @"C:\\Users\\13347\\AppData\\Local\\Temp/tmpxft_00006078_00000000-11.res" -Fo"Debug/CMakeCUDACompilerId.cu.obj" ]
+        considering line: [  tmpxft_00006078_00000000-6_CMakeCUDACompilerId.cudafe1.cpp]
+        considering line: [  #$ erase C:\\Users\\13347\\AppData\\Local\\Temp/tmpxft_00006078_00000000-11.res]
+        considering line: [已完成生成项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(CudaBuildCore 个目标)的操作。]
+        considering line: [Link:]
+        considering line: [  F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 Debug\\CMakeCUDACompilerId.cu.obj]
+          extracted link line: [link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 Debug\\CMakeCUDACompilerId.cu.obj]
+        considering line: [    正在创建库 .\\CompilerIdCUDA.lib 和对象 .\\CompilerIdCUDA.exp]
+        considering line: [  CompilerIdCUDA.vcxproj -> F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\.\\CompilerIdCUDA.exe]
+        considering line: [PostBuildEvent:]
+        considering line: [  echo CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin\\nvcc.exe]
+        considering line: [  :VCEnd]
+        considering line: [  CMAKE_CUDA_COMPILER=C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin\\nvcc.exe]
+        considering line: [FinalizeBuildStatus:]
+        considering line: [  正在删除文件“Debug\\CompilerIdCUDA.tlog\\unsuccessfulbuild”。]
+        considering line: [  正在对“Debug\\CompilerIdCUDA.tlog\\CompilerIdCUDA.lastbuildstate”执行 Touch 任务。]
+        considering line: [已完成生成项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\3.29.3\\CompilerIdCUDA\\CompilerIdCUDA.vcxproj”(默认目标)的操作。]
+        considering line: [已成功生成。]
+        considering line: [    0 个警告]
+        considering line: [    0 个错误]
+        considering line: [已用时间 00:00:09.29]
+        considering line: []
+      
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        link line: [cuda-fake-ld link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCUDA.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64" cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCUDA.lib" /MACHINE:X64 Debug\\CMakeCUDACompilerId.cu.obj]
+          arg [cuda-fake-ld] ==> ignore
+          arg [link.exe] ==> ignore
+          arg [/ERRORREPORT:QUEUE] ==> ignore
+          arg [/OUT:.\\CompilerIdCUDA.exe] ==> ignore
+          arg [/INCREMENTAL:NO] ==> ignore
+          arg [/NOLOGO] ==> ignore
+          arg [/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64] ==> dir [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64]
+          arg [cudart_static.lib] ==> lib [cudart_static.lib]
+          arg [/MANIFEST] ==> ignore
+          arg [/MANIFESTUAC:level='asInvoker' uiAccess='false'] ==> ignore
+          arg [/manifest:embed] ==> ignore
+          arg [/PDB:.\\CompilerIdCUDA.pdb] ==> ignore
+          arg [/SUBSYSTEM:CONSOLE] ==> ignore
+          arg [/TLBID:1] ==> ignore
+          arg [/DYNAMICBASE] ==> ignore
+          arg [/NXCOMPAT] ==> ignore
+          arg [/IMPLIB:.\\CompilerIdCUDA.lib] ==> ignore MSVC link option
+          arg [/MACHINE:X64] ==> ignore
+          arg [Debug\\CMakeCUDACompilerId.cu.obj] ==> ignore
+        collapse library dir [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64] ==> [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/lib/x64]
+        implicit libs: [cudart_static.lib]
+        implicit objs: []
+        implicit dirs: [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/lib/x64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CUDA compiler ABI info"
+    directories:
+      source: "F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-ng9bnh"
+      binary: "F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-ng9bnh"
+    cmakeVariables:
+      CMAKE_CUDA_FLAGS: "-D_WINDOWS -Xcompiler=\"/W3 /GR /EHsc\""
+      CMAKE_CUDA_FLAGS_DEBUG: "-Xcompiler=\"-MDd  -Zi -Ob0 -Od /RTC1\""
+      CMAKE_CUDA_RUNTIME_LIBRARY: "Static"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CUDA_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-ng9bnh'
+        
+        Run Build Command(s): "C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" cmTC_efbca.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:n
+        Microsoft (R) 生成引擎版本 14.0.25420.1
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2024/6/9 14:13:40。
+        节点 1 上的项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_efbca.dir\\Debug\\”。
+          正在创建目录“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\Debug\\”。
+          正在创建目录“cmTC_efbca.dir\\Debug\\cmTC_efbca.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_efbca.dir\\Debug\\cmTC_efbca.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        AddCudaCompileDeps:
+          F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include" /I. /FIcuda_runtime.h /c F:\\cmake\\share\\cmake-3.29\\Modules\\CMakeCUDACompilerABI.cu 
+        项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj”(1)正在节点 1 上生成“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj”(1:2) (CudaBuildCore 个目标)。
+        CudaBuildCore:
+          Compiling CUDA source file ..\\..\\..\\..\\..\\..\\cmake\\share\\cmake-3.29\\Modules\\CMakeCUDACompilerABI.cu...
+          cmd.exe /C "C:\\Users\\13347\\AppData\\Local\\Temp\\tmp91bec7c4822e40e6b11a9ee357ff6da2.cmd"
+          "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin\\nvcc.exe"  --use-local-env --cl-version 2015 -ccbin "F:\\VisualStudio2015\\VC\\bin\\x86_amd64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include"     --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -o cmTC_efbca.dir\\Debug\\CMakeCUDACompilerABI.obj "F:\\cmake\\share\\cmake-3.29\\Modules\\CMakeCUDACompilerABI.cu"
+          
+          F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin\\nvcc.exe"  --use-local-env --cl-version 2015 -ccbin "F:\\VisualStudio2015\\VC\\bin\\x86_amd64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include"     --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -o cmTC_efbca.dir\\Debug\\CMakeCUDACompilerABI.obj "F:\\cmake\\share\\cmake-3.29\\Modules\\CMakeCUDACompilerABI.cu" 
+        cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          CMakeCUDACompilerABI.cu
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          CMakeCUDACompilerABI.cu
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          CMakeCUDACompilerABI.cu
+        cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        f:\\cmake\\share\\cmake-3.29\\modules\\CMakeCompilerCUDAArch.h(10): warning C4305: “return”: 从“int”到“bool”截断 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        已完成生成项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj”(CudaBuildCore 个目标)的操作。
+        Link:
+          F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\Debug\\cmTC_efbca.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-ng9bnh/Debug/cmTC_efbca.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-ng9bnh/Debug/cmTC_efbca.lib" /MACHINE:X64  /machine:x64 -v cmTC_efbca.dir\\Debug\\CMakeCUDACompilerABI.obj
+        LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+            正在创建库 F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-ng9bnh/Debug/cmTC_efbca.lib 和对象 F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-ng9bnh/Debug/cmTC_efbca.exp
+          cmTC_efbca.vcxproj -> F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\Debug\\cmTC_efbca.exe
+          cmTC_efbca.vcxproj -> F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-ng9bnh/Debug/cmTC_efbca.pdb (Full PDB)
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_efbca.dir\\Debug\\cmTC_efbca.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_efbca.dir\\Debug\\cmTC_efbca.tlog\\cmTC_efbca.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+        
+        “F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj”(默认目标) (1) ->
+        “F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj”(CudaBuildCore 目标) (1:2) ->
+        (CudaBuildCore 目标) -> 
+          cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          f:\\cmake\\share\\cmake-3.29\\modules\\CMakeCompilerCUDAArch.h(10): warning C4305: “return”: 从“int”到“bool”截断 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+          c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        
+        
+        “F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : warning LNK4044: 无法识别的选项“/v”；已忽略 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]
+        
+            47 个警告
+            0 个错误
+        
+        已用时间 00:00:05.10
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CUDA implicit include dir info: rv=start
+        warn: unable to parse implicit include dirs!
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CUDA implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        ignore line: [Change Dir: 'F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-ng9bnh']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files (x86)/MSBuild/14.0/bin/MSBuild.exe" cmTC_efbca.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=14.0 /v:n]
+        ignore line: [Microsoft (R) 生成引擎版本 14.0.25420.1]
+        ignore line: [版权所有(C) Microsoft Corporation。保留所有权利。]
+        ignore line: []
+        ignore line: [生成启动时间为 2024/6/9 14:13:40。]
+        ignore line: [节点 1 上的项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj”(默认目标)。]
+        ignore line: [PrepareForBuild:]
+        ignore line: [  正在创建目录“cmTC_efbca.dir\\Debug\\”。]
+        ignore line: [  正在创建目录“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\Debug\\”。]
+        ignore line: [  正在创建目录“cmTC_efbca.dir\\Debug\\cmTC_efbca.tlog\\”。]
+        ignore line: [InitializeBuildStatus:]
+        ignore line: [  正在创建“cmTC_efbca.dir\\Debug\\cmTC_efbca.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。]
+        ignore line: [AddCudaCompileDeps:]
+        ignore line: [  F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_WINDOWS /DCMAKE_INTDIR="Debug" /D_MBCS /DCMAKE_INTDIR="Debug" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin" /I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include" /I. /FIcuda_runtime.h /c F:\\cmake\\share\\cmake-3.29\\Modules\\CMakeCUDACompilerABI.cu ]
+        ignore line: [项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj”(1)正在节点 1 上生成“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj”(1:2) (CudaBuildCore 个目标)。]
+        ignore line: [CudaBuildCore:]
+        ignore line: [  Compiling CUDA source file ..\\..\\..\\..\\..\\..\\cmake\\share\\cmake-3.29\\Modules\\CMakeCUDACompilerABI.cu...]
+        ignore line: [  cmd.exe /C "C:\\Users\\13347\\AppData\\Local\\Temp\\tmp91bec7c4822e40e6b11a9ee357ff6da2.cmd"]
+        ignore line: [  "C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin\\nvcc.exe"  --use-local-env --cl-version 2015 -ccbin "F:\\VisualStudio2015\\VC\\bin\\x86_amd64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include"     --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -o cmTC_efbca.dir\\Debug\\CMakeCUDACompilerABI.obj "F:\\cmake\\share\\cmake-3.29\\Modules\\CMakeCUDACompilerABI.cu"]
+        ignore line: [  ]
+        ignore line: [  F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh>"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\bin\\nvcc.exe"  --use-local-env --cl-version 2015 -ccbin "F:\\VisualStudio2015\\VC\\bin\\x86_amd64" -x cu   -I"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\include"     --keep-dir x64\\Debug -maxrregcount=0  --machine 64 --compile -cudart static -Xcompiler="/EHsc -Zi -Ob0 -v" -g   -D_WINDOWS -D"CMAKE_INTDIR=\\"Debug\\"" -D_MBCS -D"CMAKE_INTDIR=\\"Debug\\"" -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd /GR" -o cmTC_efbca.dir\\Debug\\CMakeCUDACompilerABI.obj "F:\\cmake\\share\\cmake-3.29\\Modules\\CMakeCUDACompilerABI.cu" ]
+        ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt/device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt/device_functions.h(776): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt/device_functions.h(1636): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\sm_20_intrinsics.h(925): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [  CMakeCUDACompilerABI.cu]
+        ignore line: [cl : 命令行 warning D9002: 忽略未知选项“-v” [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [f:\\cmake\\share\\cmake-3.29\\modules\\CMakeCompilerCUDAArch.h(10): warning C4305: “return”: 从“int”到“bool”截断 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(838): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(1772): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(2628): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(3477): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(4417): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(5319): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(6229): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(7104): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [c:\\program files\\nvidia gpu computing toolkit\\cuda\\v9.0\\include\\crt\\math_functions.h(7914): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj]]
+        ignore line: [已完成生成项目“F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\cmTC_efbca.vcxproj”(CudaBuildCore 个目标)的操作。]
+        ignore line: [Link:]
+        link line: [  F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\Debug\\cmTC_efbca.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64" cudadevrt.lib cudart_static.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-ng9bnh/Debug/cmTC_efbca.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-ng9bnh/Debug/cmTC_efbca.lib" /MACHINE:X64  /machine:x64 -v cmTC_efbca.dir\\Debug\\CMakeCUDACompilerABI.obj]
+          arg [F:\\VisualStudio2015\\VC\\bin\\x86_amd64\\link.exe] ==> ignore
+          arg [/ERRORREPORT:QUEUE] ==> ignore
+          arg [/OUT:F:\\TestMake\\vscode_cmake\\build2\\CMakeFiles\\CMakeScratch\\TryCompile-ng9bnh\\Debug\\cmTC_efbca.exe] ==> ignore
+          arg [/INCREMENTAL] ==> ignore
+          arg [/NOLOGO] ==> ignore
+          arg [/LIBPATH:C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64] ==> dir [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64]
+          arg [cudadevrt.lib] ==> lib [cudadevrt.lib]
+          arg [cudart_static.lib] ==> lib [cudart_static.lib]
+          arg [/MANIFEST] ==> ignore
+          arg [/MANIFESTUAC:level='asInvoker' uiAccess='false'] ==> ignore
+          arg [/manifest:embed] ==> ignore
+          arg [/DEBUG] ==> ignore
+          arg [/PDB:F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-ng9bnh/Debug/cmTC_efbca.pdb] ==> ignore
+          arg [/SUBSYSTEM:CONSOLE] ==> ignore
+          arg [/TLBID:1] ==> ignore
+          arg [/DYNAMICBASE] ==> ignore
+          arg [/NXCOMPAT] ==> ignore
+          arg [/IMPLIB:F:/TestMake/vscode_cmake/build2/CMakeFiles/CMakeScratch/TryCompile-ng9bnh/Debug/cmTC_efbca.lib] ==> ignore MSVC link option
+          arg [/MACHINE:X64] ==> ignore
+          arg [/machine:x64] ==> ignore
+          arg [-v] ==> ignore
+          arg [cmTC_efbca.dir\\Debug\\CMakeCUDACompilerABI.obj] ==> ignore
+        linker tool for 'CUDA': F:/VisualStudio2015/VC/bin/x86_amd64/link.exe
+        collapse library dir [C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v9.0\\lib\\x64] ==> [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/lib/x64]
+        implicit libs: [cudadevrt.lib;cudart_static.lib]
+        implicit objs: []
+        implicit dirs: [C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/lib/x64]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "F:/cmake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
+      - "F:/cmake/share/cmake-3.29/Modules/CMakeTestCUDACompiler.cmake:19 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CUDA compiler's linker: "F:/VisualStudio2015/VC/bin/x86_amd64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.00.24215.1
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+...

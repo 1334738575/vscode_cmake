@@ -1,0 +1,54 @@
+﻿  Checking Build System
+  CMake is re-running because F:/TestMake/vscode_cmake/build2/CMakeFiles/generate.stamp is out-of-date.
+    the file 'F:/TestMake/vscode_cmake/CMakeLists.txt'
+    is newer than 'F:/TestMake/vscode_cmake/build2/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  CMake Warning (dev) at CMakeLists.txt:8 (find_package):
+    Policy CMP0146 is not set: The FindCUDA module is removed.  Run "cmake
+    --help-policy CMP0146" for policy details.  Use the cmake_policy command to
+    set the policy and suppress this warning.
+  
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  -- 9.0
+  -- C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/include
+  -- C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v9.0/lib/x64/cudart_static.lib
+  -- Configuring done (0.1s)
+  CMake Warning (dev) in CMakeLists.txt:
+    Policy CMP0104 is not set: CMAKE_CUDA_ARCHITECTURES now detected for NVCC,
+    empty CUDA_ARCHITECTURES not allowed.  Run "cmake --help-policy CMP0104"
+    for policy details.  Use the cmake_policy command to set the policy and
+    suppress this warning.
+  
+    CUDA_ARCHITECTURES is empty for target "vscode_cmake".
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) in CMakeLists.txt:
+    Policy CMP0104 is not set: CMAKE_CUDA_ARCHITECTURES now detected for NVCC,
+    empty CUDA_ARCHITECTURES not allowed.  Run "cmake --help-policy CMP0104"
+    for policy details.  Use the cmake_policy command to set the policy and
+    suppress this warning.
+  
+    CUDA_ARCHITECTURES is empty for target "vscode_cmake".
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) in CMakeLists.txt:
+    Policy CMP0104 is not set: CMAKE_CUDA_ARCHITECTURES now detected for NVCC,
+    empty CUDA_ARCHITECTURES not allowed.  Run "cmake --help-policy CMP0104"
+    for policy details.  Use the cmake_policy command to set the policy and
+    suppress this warning.
+  
+    CUDA_ARCHITECTURES is empty for target "vscode_cmake".
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  CMake Warning (dev) in CMakeLists.txt:
+    Policy CMP0104 is not set: CMAKE_CUDA_ARCHITECTURES now detected for NVCC,
+    empty CUDA_ARCHITECTURES not allowed.  Run "cmake --help-policy CMP0104"
+    for policy details.  Use the cmake_policy command to set the policy and
+    suppress this warning.
+  
+    CUDA_ARCHITECTURES is empty for target "vscode_cmake".
+  This warning is for project developers.  Use -Wno-dev to suppress it.
+  
+  -- Generating done (0.1s)
+  -- Build files have been written to: F:/TestMake/vscode_cmake/build2
