@@ -2,6 +2,7 @@
 // #include "src/testCUDA.h"
 #include "include/testH.h"
 #include "include/Version.hpp"
+#include "Eigen/Core"
 
 // extern "C" void mainCUDA();
 
@@ -15,6 +16,10 @@ int main(int argv, char** argc){
 #endif
     cout<<Gt<<endl;
     GFunc();
+    Eigen::Matrix3d m1;
+    m1 << 1,0,0,0,1,0,1,0,1;
+    cout<<"Test Eigen:"<<endl;
+    cout<<m1<<endl;
     // printTestCUDA();
     // mainCUDA();
 

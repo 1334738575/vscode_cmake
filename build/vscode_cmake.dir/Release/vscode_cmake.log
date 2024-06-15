@@ -1,0 +1,7 @@
+﻿  main.cpp
+f:\testmake\vsccode_cmake_branch\vscode_cmake\thirdparty2\build\install\include\eigen3\eigen\src/Core/MathFunctions.h(778): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\testmake\vsccode_cmake_branch\vscode_cmake\thirdparty2\build\install\include\eigen3\eigen\src/Core/arch/Default/Half.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\testmake\vsccode_cmake_branch\vscode_cmake\thirdparty2\build\install\include\eigen3\eigen\src/Core/arch/Default/BFloat16.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\testmake\vsccode_cmake_branch\vscode_cmake\thirdparty2\build\install\include\eigen3\eigen\src/Core/arch/Default/GenericPacketMathFunctions.h(1238): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+f:\testmake\vsccode_cmake_branch\vscode_cmake\thirdparty2\build\install\include\eigen3\eigen\src/Core/SkewSymmetricMatrix3.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  vscode_cmake.vcxproj -> F:\TestMake\vsccode_cmake_branch\vscode_cmake\build\Release\vscode_cmake.exe

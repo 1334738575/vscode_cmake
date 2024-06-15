@@ -1,0 +1,3 @@
+F:/TestMake/vsccode_cmake_branch/vscode_cmake/build/CMakeFiles/vscode_cmake.dir
+F:/TestMake/vsccode_cmake_branch/vscode_cmake/build/CMakeFiles/ALL_BUILD.dir
+F:/TestMake/vsccode_cmake_branch/vscode_cmake/build/CMakeFiles/ZERO_CHECK.dir

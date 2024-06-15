@@ -5,7 +5,8 @@ project(vscode_cmake)
 
 set(CMAKE_CXX_STANDARD 14)
 
-
+list(APPEND CMAKE_MODULE_PATH "F:/TestMake/vsccode_cmake_branch/vscode_cmake/thirdParty2/build/install")
+find_package(Eigen3 REQUIRED)
 # find_package(CUDA REQUIRED)
 # message(STATUS ${CUDA_VERSION})
 # message(STATUS ${CUDA_INCLUDE_DIRS})
@@ -13,7 +14,9 @@ set(CMAKE_CXX_STANDARD 14)
 # # message(FATAL_ERROR ${CUDA_FOUND})
 
 include_directories(include
-    ${CUDA_INCLUDE_DIRS})
+    ${CUDA_INCLUDE_DIRS}
+    ${Eigen3_INCLUDE_DIRS}
+    )
 
 aux_source_directory(src SRC)
 # message(FATAL_ERROR ${SRC})
