@@ -1,7 +1,7 @@
 #include <iostream>
 
 #define VMAIN 1
-#define VSUB 0
+#define VSUB 1
 #define VMIN 1
 
 void PrintVersion(){
